@@ -1,0 +1,61 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 980px;
+    background-color: #FFD9B7;
+    margin: 0px auto;
+    }
+    .logo{
+        min-height: 130px;
+        width: 260px;
+        background-color: #B97A57;
+        margin: 20px 10px 10px 20px;
+        display: inline-block;
+    }
+    .navigation{
+        min-height: 130px;
+        width: 655px;
+        background-color: #FF7F27;
+        margin: 20px 20px 10px 10px;
+        display: inline-block;
+    }
+    .main_content{
+        min-height: 250px;
+        width: 935px;
+        background-color: #880015;
+        margin: 10px 20px 10px 20px;
+        display: block;
+    }
+        .about{
+            min-height: 250px;
+            width: 650px;
+            background-color: #FFAEC9;
+            margin: 40px 20px 40px 40px;
+            display: inline-block;
+        }
+        .advertisement{
+            min-height: 200px;
+            width: 155px;
+            background-color: #C8BFE7;
+            margin: 40px 40px 40px 20px;
+            display: inline-block;
+            vertical-align:top;
+        }
+    .sponsors{
+        min-height: 65px;
+        width: 305px;
+        background-color: #FFFF88;
+        display: inline-block;
+    }
+    .first-sponsor {
+        margin:10px 5px 10px 20px;
+    }
+    .second-sponsor {
+        margin:10px 5px 10px 0px;
+    }
+    .third-sponsor{
+        margin: 10px 20px 10px 0px;
+    }

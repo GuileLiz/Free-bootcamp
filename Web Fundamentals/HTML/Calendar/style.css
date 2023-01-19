@@ -1,0 +1,82 @@
+
+#wrapper {
+	width: 1000px;
+	margin: 40px auto 0px auto;
+}
+h1 {
+	text-align: center;
+	font-family: "helvetica neue", arial, verdana, sans-serif;
+	margin: 50px 110px 50px 110px;
+	display: inline-block;
+
+}
+#aug {
+	vertical-align: top;
+	width: 200px;
+	margin-left: 100px;
+	margin-right:6px;
+}
+#jun {
+	vertical-align: top;
+	width: 200px;
+	margin-right: 100px;
+	margin-left: 6px;
+}
+p {
+	text-align: center;
+	font-family: "helvetica neue", arial, verdana, sans-serif;
+	font-size: 30px;
+	margin: 0px auto;
+
+}
+.calender_block {
+	display: inline-block;
+	padding: 5px 48px;
+	margin: 0px 7px 0px 7px;
+	border-style: solid;
+	width: 25px;
+	height: 40px;
+	vertical-align: top;
+	text-align: center;
+}
+.calender_block_sun {
+	display: inline-block;
+	padding: 5px 48px;
+	margin: 0px 7px 0px 7px;
+	border-style: solid;
+	width: 25px;
+	height: 40px;
+	vertical-align: top;
+	text-align: center;
+	background-color: cornflowerblue;
+}
+.calender_block_sat {
+	display: inline-block;
+	padding: 5px 48px;
+	margin: 0px 7px 0px 7px;
+	border-style: solid;
+	width: 25px;
+	height: 40px;
+	vertical-align: top;
+	text-align: center;
+	background-color: #FFD9B7;
+}
+.nwrapper {
+	width: 1000px;
+	margin: 10px auto;
+}
+.bold {
+	font-weight:bold;
+	margin: 0px 100px 0px -15px;
+}
+.calender_block_blank {
+	display: inline-block;
+	padding: 5px 48px;
+	margin: 0px 7px 0px 7px;
+	border-style: solid;
+	width: 25px;
+	height: 40px;
+	vertical-align: top;
+	text-align: center;
+	background-color: lightgray;
+}

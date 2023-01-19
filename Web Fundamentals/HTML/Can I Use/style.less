@@ -1,0 +1,124 @@
+.container {
+    width: auto;
+    min-height:100vh;
+    background-color: #3d3422;
+    font-family: "sans-serif", arial, verdana ;
+    padding: 0 5% 0 5%;
+        header {
+            a {
+                padding: 1.5%;
+                background-color: #524b3c;
+                margin: 0%;
+                color: white;
+                text-decoration: none;
+                position: relative;
+                top:3.2vh;
+                }
+            span a {
+                margin-left: 60%;
+                }
+            }
+            form {
+            padding: 2%;
+            margin-top: 5%;
+            background-color:#c84f00 ;
+            font-size: 2em;
+            color: white;
+        }
+        #tagging {
+            background-color:#c84f00;
+            padding:0.6%;
+            text-decoration: none;
+            color: white;
+            font-size: 1.4em;
+            position: relative;
+            right:2.2vw;
+            top:7.5vw;
+        }
+        label{
+            margin-left: 20%;
+        }
+        input {
+            background-color:#c84f00;
+            border-bottom: 2px solid #bfb4ad;;
+            border-style: hidden hidden solid hidden;
+        }
+        section{
+            background:#f2e9d6;
+            padding: 2%;
+            margin-top: 4%;
+            h1{
+                font-weight: normal;
+                margin: 0%;
+            }
+            >p {
+                display: inline-block;
+                width: 40vw;
+                text-align: justify;
+                margin-right:40vw ;
+            }
+            @column-size:8.2%;
+            article {
+                display:innline-block;
+                div{ 
+                    display:inline-block;
+                    width: @column-size;
+                    text-align: center;
+                    margin-left: .2vw;
+                    vertical-align: top;
+                    h2 {
+                        width: 100%;
+                        margin-bottom: 0;
+                        font-size: .9em;
+                        font-weight: normal;
+                        border-bottom: 5px solid;
+                        padding-bottom: 4vh;
+                        height: 5vh;
+                    }
+                    p {
+                        font-size: .9em;
+                        position: relative;
+                    }
+                    .notes {
+                        background-color: white;
+                        border: 1px solid black;
+                        color: black;
+                        padding: 0.1em;
+                        position: absolute;
+                        bottom: 1em;
+                        left: 0;
+                    }
+                    .not-supported, .partially-supported, .fully-supported {
+                        padding: 2vh;
+                        color: white;
+                        margin: 0.4vh auto 0.8vh auto;
+                    }
+                    .not-supported {background-color:#810000;}
+                    .partially-supported {background-color:#946f0c;} 
+                    .fully-supported {background-color:#258533;}
+                    .blk_1{
+                        display:inline-block;
+                        background-color:#ebe2cf ;
+                        height: 6.7vh;
+                        width: 6.9vw;
+                        margin: 0;
+                    }
+                    .blk_2{
+                        display:inline-block;
+                        background-color:#ebe2cf ;
+                        height: 15.2vh;
+                        width: 6.9vw;
+                        margin: 0;
+                    }
+                    .blk_3{
+                        display:inline-block;
+                        background-color:#ebe2cf ;
+                        height: 23.2vh;
+                        width: 6.9vw;
+                        margin: 0;
+                    }
+                }
+            }
+            
+        }
+    }
