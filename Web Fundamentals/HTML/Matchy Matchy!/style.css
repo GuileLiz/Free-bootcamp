@@ -1,0 +1,28 @@
+* {
+    outline: 4px dotted blue;
+    font-family: "sans-serif", arial, verdana ;
+}
+.container {
+    width: 1024px;
+    min-height: 200px;
+    margin: 0 auto;
+    position: relative;
+    }
+    .container img{
+        width: 1024px;
+    }
+    .container section {
+        width: 46%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        height: 60%;
+    }
+        .container section img {
+            display: inline-block;
+            width: 22%;
+        }
