@@ -1,0 +1,21 @@
+* {
+    font-family: "sans-serif", arial, verdana ;
+}
+.container {
+    width: 1024px;
+    min-height: fit-content;
+    margin: 0 auto;
+    }
+    .container h1, .container p {
+        text-align: center;
+    }
+    .container section {
+        width: 45%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+        .container section img {
+            display: inline-block;
+            width: 15.85%;
+        }
