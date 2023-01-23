@@ -1,0 +1,157 @@
+* {
+	/* outline: 4px dotted blue; */
+	margin: 0;
+	padding: 0;
+	font-family: "amazon ember",sans-serif, arial, verdana ;
+}
+.container {
+	width: auto;
+	position: relative;
+	background-color: #eaeded;
+	}
+	.container header{
+		background-color: #131921;
+		height: 52px;
+		padding: 6px 8px 0px 6px;
+	}
+		.container header img{
+			height: 28px;
+			margin: 14px auto 4px 15px;
+		}
+		.container header a{
+			display: inline-block;
+			text-decoration: none;
+			color:#77797d;
+			font-size: 12px;
+			width: 60px;
+			padding: 0.5%;
+			vertical-align: top;
+			margin-left: 20px;
+			}
+			.container header a span{
+				display: inline-block;
+				font-weight: bold;
+				color:#ffffff; 
+				font-size: 14px;
+			}
+		.container header form{
+			display: inline-block;
+			vertical-align:top;
+			margin: 4px 0 auto 30px;
+			width: 45%;
+			}
+			.container header form select, .container header form input {
+				font-size: 12px;
+				color: #818181;
+				border: 1px solid #e7e7e7;
+			}
+			.container header form select {
+				padding: 10px 5px 10px 5px ;
+				border-radius: 10% 0% 0% 10%;
+				background-color: #f3f3f3;
+			}
+			.container header form label {
+				border-left: 0;
+			}
+				.container header form label #search  {
+					padding: 10.5px 5px 10px 5px ;
+					border-left: 0px;
+					width: 78%;
+				}
+			.container header form #submit {
+				display: inline-block;
+				vertical-align: top;
+				width: 6%;
+				padding:3.8px ;
+				margin: 0px;
+				border: #febd69 ;
+				background-color:#febd69 ;
+				border-radius: 0% 10% 10% 0%;
+			}
+		.container header #language {
+			background-color: #131921;
+			display: inline-block;
+			vertical-align: bottom;
+			font-weight: bold;
+			color:#ffffff; 
+			font-size: 14px;
+			border: 0;
+			margin: auto 15px auto 5px;
+			margin-bottom: 20px;
+		}
+			.container header #sign-in {
+				vertical-align: top;
+				display: inline-block;
+				font-size: 12px;
+				color:#ffffff;
+				width: 120px;
+				padding: 0;
+				margin-top: 10px;
+			}
+			
+			.container header label #sign-in {
+				display: inline-block;
+				background-color: #131921;
+				vertical-align: top;
+				color:#ffffff; 
+				font-size: 14px;
+				border: 0;
+				margin-bottom: 14px;
+				font-weight: bold;
+				margin-top: 0px;
+			}
+			.container header a img {
+				vertical-align: top;
+				width:auto;	
+				margin: 0;
+				width: 50px;
+				height: 40px;
+			}
+		.container nav {
+			background-color:#232f3e;
+			padding:10px;
+		}
+		.container nav  a { 
+			font-size: 14px;
+			color: #ffffff;
+			text-decoration: none;
+			margin: auto 8px auto 8px;
+		}
+		.container nav  a span { 
+			font-weight: bold;
+		}
+		.container nav #free-shipping { 
+			position: absolute;
+			right: 10px;
+		}
+		.container main img {
+			width: 100%;
+		}
+		.container main section {
+			display: inline-block;
+			width: 100%;
+			position: relative;
+			bottom: 300px;
+			margin: 0 auto;
+		}
+			.container main section article {
+				vertical-align: top;
+				display: inline-block;
+				width: 20%;
+				height: 270px;
+				background-color: white;
+				margin: 15px;
+				padding: 10px;
+				
+			}
+			.container main article h1 {
+				font-size: 14px;
+			}
+			.container main article img {
+				width: 100%;
+			}
+			.container main article a {
+				text-decoration: none;
+				font-size: 8px;
+			}
+

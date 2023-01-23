@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Form Validation</title>
+		<meta name="description" content="Form Validation">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="meadia-query.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="jquery.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+	</head>
+	<body>
+        <div class="container">
+			<h1>Scheduling Form for Vaccination</h1>
+			<form id="form" action="http" method="POST">
+				<label>First Name:
+					<input type="text" placeholder="First Name" class="personal_details firstName">
+				</label>
+				<label>Last Name:
+					<input type="text" placeholder="Last Name" class="personal_details lastName">
+				</label>
+				<label>Preferred Date:
+					<input type="text" id="datepicker" class="personal_details date">
+				</label>
+				<input class="button" type="submit" value="A submit button">
+			</form>
+		</div>
+	</body>
+</html>
